@@ -1,0 +1,14 @@
+{
+  "name": "todoist-with-aws-lambda-sample-add-todo",
+  "type": "module",
+  "scripts": {
+    "build": "bash build.sh",
+    "fmt": "prettier --write '**/*.{mjs,json,md}'"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}
